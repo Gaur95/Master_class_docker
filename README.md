@@ -21,7 +21,18 @@ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 ```
 docker --version
 ```
-
+## docker 
+ +  docker images ----- to show container images
+ +  docker pull <image_name>  ----  pull container images
+ +  docker ps ----   to show running conatiner 
+ +  docker ps -a ---- to show all container 
+ +  docker rmi <img_name /imgage_id> --- to remove container images
+ +  docker run <image_name> ----  to run container
+ +  docker exec -it <container_name> ---- to enter into the container
+ +  docker stop <container_name/container_id>  --- to stop running
+ +  docker rm <container name>  ---  to remove container 
+ + docker start <container name >  -- to start stop container
+ + docker rm -f <container name >  --- to remove running container 
 
 ### docker exec --  ----> to change html code
 ```
