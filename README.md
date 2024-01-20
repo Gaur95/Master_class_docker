@@ -33,7 +33,7 @@ docker --version
  +  docker rm <container name>  ---  to remove container 
  + docker start <container name >  -- to start stop container
  + docker rm -f <container name >  --- to remove running container 
-
+<img src=20jan.jpg>
 ### docker exec --  ----> to change html code
 ```
 ubuntu@ip-172-31-4-185:~$ docker exec -it akash bash
