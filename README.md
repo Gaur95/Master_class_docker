@@ -21,3 +21,24 @@ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 ```
 docker --version
 ```
+
+
+### docker exec --  ----> to change html code
+```
+ubuntu@ip-172-31-4-185:~$ docker exec -it akash bash
+root@266ca2f4fc72:/usr/local/apache2# ls
+bin  build  cgi-bin  conf  error  htdocs  icons  include  logs  modules
+root@266ca2f4fc72:/usr/local/apache2# cd htdocs
+root@266ca2f4fc72:/usr/local/apache2/htdocs# ls
+index.html
+root@266ca2f4fc72:/usr/local/apache2/htdocs# cat index.html
+<html><body><h1>It works!</h1></body></html>
+root@266ca2f4fc72:/usr/local/apache2/htdocs# cat >index.html
+this is cool i am using dockerrrrr
+^C
+root@266ca2f4fc72:/usr/local/apache2/htdocs# cat index.html
+this is cool i am using docker
+rrr
+root@266ca2f4fc72:/usr/local/apache2/htdocs# exit
+exit
+```
