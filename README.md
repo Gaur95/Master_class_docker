@@ -35,6 +35,7 @@ docker --version
  + docker rm -f <container name >  --- to remove running container 
 <img src=20jan.jpg>
 ### docker exec --  ----> to change html code
+
 ```
 ubuntu@ip-172-31-4-185:~$ docker exec -it akash bash
 root@266ca2f4fc72:/usr/local/apache2# ls
@@ -287,4 +288,5 @@ a20c9e5353c8   wordpress   "docker-entrypoint.s…"   14 minutes ago   Up 14 min
 7a7baf09a9d7   httpd       "httpd-foreground"       36 minutes ago   Up 36 minutes   80/tcp, 0.0.0.0:32768->2233/tcp, :::32768->2233/tcp    saqeeb
 a0b310a2bd8c   httpd       "httpd-foreground"       36 minutes ago   Up 36 minutes   0.0.0.0:1007->80/tcp, :::1007->80/tcp                  Unknown
 266ca2f4fc72   httpd       "httpd-foreground"       39 minutes ago   Up 39 minutes   0.0.0.0:1122->80/tcp, :::1122->80/tcp                  akash
+
 ```
